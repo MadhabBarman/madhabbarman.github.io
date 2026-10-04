@@ -12,6 +12,8 @@ body {
     color: #334155;
     background-color: #f8fafc;
     padding-top: 70px; /* Offset for the sticky top navbar */
+    scroll-behavior:
+    smooth;
 }
 
 /* --- STICKY TOP NAVBAR --- */
