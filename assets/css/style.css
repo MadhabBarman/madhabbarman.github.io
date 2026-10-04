@@ -255,18 +255,15 @@ p {
 /* --- JOURNAL / PUBLICATION DETAILS --- */
 .card-journal {
     font-size: 0.85rem;
-    color: #64748b; /* Soft slate gray */
+    color: #64748b; 
     margin-top: 0.2rem;
     margin-bottom: 0.8rem;
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
+    line-height: 1.5; /* Makes the text flow naturally as normal lines */
 }
 
-/* Make the journal name itself stand out slightly */
 .card-journal .journal-name {
     font-weight: 600;
-    color: #0369a1; /* A nice deep blue to make the venue pop */
+    color: #0369a1; 
     font-style: italic;
 }
 
